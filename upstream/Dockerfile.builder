@@ -117,7 +117,7 @@ RUN yConfs=' \
 
 RUN set -x \
 	&& make -j$(nproc) \
-		CROSS_COMPILE="$(basename /usr/src/buildroot/output/host/usr/*-buildroot-linux-uclibc)-" \
+		CROSS_COMPILE="arm-buildroot-linux-uclibcgnueabi-" \
 		busybox \
 	&& mkdir -p rootfs/bin \
 	&& ln -v busybox rootfs/bin/ \
