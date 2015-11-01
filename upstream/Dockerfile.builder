@@ -42,11 +42,12 @@ RUN yConfs=' \
 		BR2_TOOLCHAIN_BUILDROOT_INET_RPC \
 		BR2_TOOLCHAIN_BUILDROOT_UCLIBC \
 		BR2_TOOLCHAIN_BUILDROOT_WCHAR \
-		BR2_x86_64 \
+		BR2_arm \
 	' \
 	&& nConfs=' \
 		BR2_SHARED_LIBS \
 		BR2_i386 \
+		BR2_x86_64 \
 	' \
 	&& set -xe \
 	&& cd /usr/src/buildroot \
