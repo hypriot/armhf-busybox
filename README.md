@@ -2,7 +2,7 @@
 
 busybox for ARM
 
-Inspired by the official build steps are at https://github.com/docker-library/busybox
+Inspired by the official build steps at https://github.com/docker-library/busybox
 
 ## Build
 
